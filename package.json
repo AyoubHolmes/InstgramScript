@@ -1,0 +1,23 @@
+{
+    "name": "ig_script",
+    "version": "1.0.0",
+    "description": "This bot aims for increasing the user's instagram followers.",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified yet\" && exit 1"
+    },
+    "author": "Ayoub Boulbaz",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "instagram-private-api": "^1.45.1",
+        "nodemon": "^2.0.9",
+        "tslint": "^6.1.3",
+        "typescript": "^4.3.5"
+    }
+}
